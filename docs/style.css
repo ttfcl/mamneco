@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+nav {
+    min-height: 100px;
+}
+#top_logo {
+    margin-left: 5%;
+}
+.top-margin {
+    margin-right: 1%;
+}
+@media (max-width : 991px) {
+    .nav-item {
+        margin-left: 10px;
+    }
+}
+#navbar {
+    background-color: #ffb619c2;
+    border-bottom: 4px solid #332505c2;
+}
+.nav-link {
+    font-size: 24px;
+    color: white;
+}
+.nav-item {
+    margin-right: 10px;
+}
+.nav-link:hover {
+    color: #cf5c5c;
+}
+.black {
+    color: #222222;
+}
+.black:hover {
+    color: #cf5c5c;
+}
+.navbarBW {
+    background-color: white;  
+}
+.dropdown-item:hover {
+    color: #cf5c5c;
+}
+.navbar-toggler-icon {
+    background-color: aliceblue;
+}
+.navTitle {
+    text-align: center;
+}
+.navTitleText {
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px;
+}
+/*섹션 1-----------------*/
+.section1 {
+    z-index: 1;
+}
+#carouselExampleControls {
+    position: relative;
+}
+.section1Box {
+    width: 60%;
+    background-color: #cf5c5c;
+    z-index: 2;
+    position: relative;
+    top: calc(-50%)
+}
+.test {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20%;
+    text-align: center;
+}
+.test2 {
+    height: 100px;
+    border-radius: 1rem;
+    background-color: gray;
+}
+.형광펜 {
+    background: linear-gradient(to top, rgba(59, 59, 59, 0.658) 50%,rgba(59, 59, 59, 0.658) 50%);
+    width: fit-content;
+}
+.section1Title {
+    width: 100%;
+    font-size: 64px;
+    color: white;
+}
+.section1Title2 {
+    width: 100%;
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: white;
+}
+@media (max-width: 1600px) {
+    .section1Title {
+        font-size: 48px;
+    }
+    .section1Title2 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 1200px) {
+    .section1Title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .section1Title2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 810px) {
+    .section1Title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .section1Title2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .test {
+        top: 20px;
+    }
+    .section1Title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .section1Title2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+/*섹션 1-----------------*/
+
+/*섹션 2-----------------*/
+.section2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section2Box {
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.section2BoxContent {
+    width: 350px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+}
+@media (max-width: 1300px) {
+    .section2BoxContent {
+        margin-top: 25px;
+    }
+}
+.section2BoxContentText {
+    margin-right: 20px; 
+}
+.section2BoxContentTextTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 63, 63);
+}
+.section2BoxContentTextTitle2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.section2BoxContentTextTitle3 {
+    font-weight: 600;
+}
+.section2BoxContentTextTitle32 {
+    margin-top: 5px;
+}
+.section2BoxContentIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(105, 105, 105);
+}
+/*섹션 2-----------------*/
+
+/*섹션 3-----------------*/
+.section3 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section3Title {
+    font-weight: 700;
+    font-size: 24px;
+}
+.section3Text {
+    font-size: 18px;
+}
+.section3line {
+    width: 100px;
+    border-bottom: 2px solid gray;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section3Box {
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.section3BoxContent {
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.section3BoxContentImg > img:hover {
+    filter: contrast(50%);
+    transition: 0.5s;
+}
+
+/*섹션 3-----------------*/
+
+/*무빙 버튼*/
+.moving {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.moving > img {
+    border-radius: 100%;
+    border: 1px solid #295a88;
+}
+/*무빙 버튼*/
+
+/*footer 영역*/
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+footer > .footer_r > .teck_footer_logo > p {
+    font-size: 12px;
+    color: whitesmoke;
+}
+.footer_r {
+    width: 100%;
+    max-width: 1320px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.teck {
+    display: flex;
+    justify-content: left;
+   
+}
+.teck_button {
+    min-width: 148px;
+    margin-right: 25px;
+    margin-top: 25px;
+    color: gray;
+    text-align: center;
+}
+.teck_button:hover {
+    color: white;
+    background-color: gray;
+}
+.teck_footer_logo {
+    width: 100%;
+    height: 200px;
+}
+.teck_logo {
+    width: 100%;
+    height: 100px;
+    margin-top: 25px;
+    text-align: right;
+}
+@media (max-width: 992px) {
+    .teck_logo {
+        display: none;
+    }
+}
+/*footer 영역*/
