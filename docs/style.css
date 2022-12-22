@@ -14,57 +14,75 @@ a {
     text-decoration: none;
     color: black;
 }
-nav {
+/*네비바--------*/
+.top_nav {
+    width: 142px;
+    height: 126px;
+    background-image: url(image/logo.png);
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+.navbar-toggler {
+    margin-left: 90%;
+}
+.test {
+    background-color: gray;
+    height: 100px;
+    border-radius: 1rem;
+}
+.test2 {
+    background-color: gray;
+    height: 50px;
+}
+.nav_con {
+    background-color: #ffb619c2;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbar_box {
+    padding: 0px;
+}
+.navbarBox {
     min-height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;  
 }
-#top_logo {
-    margin-left: 5%;
+.nav-item > a {
+    color: black;
+    font-size: 21px;
+    border-radius: 1rem;
 }
-.top-margin {
-    margin-right: 1%;
+.nav-item > a:hover {
+    color: white;
+    background-color: black;
+    font-size: 21px;
 }
-@media (max-width : 991px) {
-    .nav-item {
-        margin-left: 10px;
+@media (min-width: 1200px) {
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
     }
 }
-#navbar {
-    background-color: #ffb619c2;
-    border-bottom: 4px solid #332505c2;
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav_phoneNumber {
+        display: none;
+    }
 }
-.nav-link {
-    font-size: 24px;
-    color: white;
+@media (max-width: 991px) {
+    .nav-item {
+        margin-top: 20px;
+    }
 }
-.nav-item {
-    margin-right: 10px;
-}
-.nav-link:hover {
-    color: #cf5c5c;
-}
-.black {
-    color: #222222;
-}
-.black:hover {
-    color: #cf5c5c;
-}
-.navbarBW {
-    background-color: white;  
-}
-.dropdown-item:hover {
-    color: #cf5c5c;
-}
-.navbar-toggler-icon {
-    background-color: aliceblue;
-}
-.navTitle {
-    text-align: center;
-}
-.navTitleText {
-    font-weight: 700;
-    margin-top: 10px;
-    font-size: 16px;
-}
+
+/*네비바 영역-----------*/
+
 /*섹션 1-----------------*/
 .section1 {
     z-index: 1;
@@ -79,7 +97,7 @@ nav {
     position: relative;
     top: calc(-50%)
 }
-.test {
+.crouselFl {
     position: absolute;
     height: 100%;
     top: 0px;
