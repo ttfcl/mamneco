@@ -283,7 +283,8 @@ nav {
     border-radius: 10rem;
 }
 .section4Button:hover {
-    color: brown;
+    color: white;
+    background-color: brown;
     transition: 0.5ms;
 }
 @media (max-width: 1550px) {
@@ -299,12 +300,14 @@ nav {
 /*무빙 버튼*/
 .moving {
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
 }
-.moving > img {
-    border-radius: 100%;
-    border: 1px solid #295a88;
+.카카오톡 {
+    width: 100px;
+    height: 100px;
 }
 /*무빙 버튼*/
 

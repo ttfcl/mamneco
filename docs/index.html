@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <meta name="naver-site-verification" content="ba9fc5ba5d8456efa32551696a313553e25fe669" />
     <meta name="google-site-verification" content="zFIW-RSzziuvufzHwY0fJmRDngTHiDzAVkw_eiu6pdc" />
-    <meta name="description" property="og:description" content="마도요 비즈니스 9번">
+    <meta name="description" property="og:description" content="최고의 꿀 맘엔에코">
     <meta property="og:image" content="image/logo.png">
-    <meta property="og:title" content="마도요 비즈니스 9번"> 
+    <meta property="og:title" content="최고의 꿀 맘엔에코"> 
     <meta property="og:url" content="https://mamneco.com">
     <link rel="shortcut icon" href="./favicon.ico">
 </head>
@@ -32,11 +32,11 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="pages/page0/page00.html">리치꿀</a></li>
-                    <li><a class="dropdown-item" href="pages/page0/page01.html">커피꿀</a></li>
-                    <li><a class="dropdown-item" href="pages/page0/page02.html">아카시아꿀</a></li>
-                    <li><a class="dropdown-item" href="pages/page0/page03.html">용안꿀</a></li>
-                    <li><a class="dropdown-item" href="pages/page0/page04.html">갈색 아카시아꿀</a></li>
-                    <li><a class="dropdown-item" href="pages/page0/page05.html">로얄젤리</a></li>
+                    <li><a class="dropdown-item" href="pages/page0/page00.html#커피꿀">커피꿀</a></li>
+                    <li><a class="dropdown-item" href="pages/page0/page00.html#아카시아꿀">아카시아꿀</a></li>
+                    <li><a class="dropdown-item" href="pages/page0/page00.html#용안꿀">용안꿀</a></li>
+                    <li><a class="dropdown-item" href="pages/page0/page00.html#갈색 아카시아">갈색 아카시아꿀</a></li>
+                    <li><a class="dropdown-item" href="pages/page0/page00.html#로얄젤리">로얄젤리</a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -91,7 +91,7 @@
       </button>
     </div>
   </div>
-  <div class="section2">
+  <div class="section2" id="section2">
     <div class="section2Box">
       <div class="section2BoxContent">
         <div class="section2BoxContentText">
@@ -178,7 +178,9 @@
     </div>
   </div>
   <div class="moving">
-    <img src="image/icon1.png" width="100px" height="100px">
+    <a class="카카오톡" href="#"><img src="image/kakaotalk.png" width="100px" height="100px"></a>
+    <a class="입금계좌" href="#계좌안내"><img src="image/account.png" width="100px" height="100px"></a>
+    <a class="전화번호" href="#section2"><img src="image/call.png" width="100px" height="100px"></a>
   </div>
  
   
@@ -186,10 +188,10 @@
     <div class="footerButton">
       <div class="footerBox">
         <div class="footerBoxAbout">
-          <div class="footerBoxTitle">About</div>
-          <div class="footerBoxAboutContent">이용약관</div>
+          <div class="footerBoxTitle">Impo</div>
           <div class="footerBoxAboutContent" data-bs-toggle="modal" data-bs-target="#exampleModal2">개인정보처리방침</div>
           <div class="footerBoxAboutContent" data-bs-toggle="modal" data-bs-target="#exampleModal1">이메일무단수집거부</div>
+          <a class="footerBoxAboutContent" href="pages/admin/loginPage.html">관리자모드</a>
         </div>
         <div class="footerBoxCall">
           <div class="footerBoxTitle">Call</div>
@@ -197,7 +199,7 @@
           <div class="footerBoxCallContent">월~토 08:00 ~ 19:00</div>
           <div class="footerBoxCallContent">일, 공휴일 휴무</div>
         </div>
-        <div class="footerBoxAccount">
+        <div class="footerBoxAccount" id="계좌안내">
           <div class="footerBoxTitle">Bank Account</div>
           <div class="footerBoxAccountContent">oo은행</div>
           <div class="footerBoxAccountContent">000-00000-000-00</div>
@@ -277,11 +279,11 @@
   <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
-  <script src="gesipanData.js"></script>
-  <script src="firebase.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-  <script src="nav.js"></script>
   <script src="lock.js"></script>
+  <script>
+    localStorage.removeItem("master")
+  </script>
 </body>
 </html>

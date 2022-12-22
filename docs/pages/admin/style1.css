@@ -742,7 +742,18 @@ nav {
 .b4ContentCT {
     border-bottom: 1px solid gray;
 }
-
+.body_title > div > a > button {
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.363);
+    color: black;
+    border-radius: 1rem;
+    width: 70px;
+    font-family: '고딕';
+    font-size: 18px;
+}
+.body_title > div {
+    padding-top: 0px;
+}
 /*무빙 버튼*/
 .moving {
     position: fixed;

@@ -27,3 +27,10 @@ button:hover {
 .happyend2 {
     width: 100%;
 }
+.mt10 {
+    margin-top: 20px;
+}
+
+#qwerasdf, #disItem {
+    width: 250px;
+}
