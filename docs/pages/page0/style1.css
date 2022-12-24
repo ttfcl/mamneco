@@ -48,6 +48,10 @@ a {
     justify-content: center;
     display: flex;  
 }
+.nav-item {
+    width: 250px;
+    text-align: center;
+}
 .nav-item > a {
     color: black;
     font-size: 21px;
@@ -62,14 +66,14 @@ a {
     .navbar-nav {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
     .navbar-nav {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .nav_phoneNumber {
         display: none;
@@ -78,10 +82,13 @@ a {
 @media (max-width: 991px) {
     .nav-item {
         margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
     }
 }
 
 /*네비바 영역-----------*/
+
 /*섹션 1-----------------*/
 .section1 {
     padding-top: 50px;
