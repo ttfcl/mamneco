@@ -59,6 +59,10 @@ a {
     background-color: black;
     font-size: 21px;
 }
+.dropdown-menu {
+    width: 250px;
+    text-align: center;
+}
 @media (min-width: 1200px) {
     .navbar-nav {
         width: 100%;
@@ -80,6 +84,9 @@ a {
     .nav-item {
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 100%;
+    }
+    .dropdown-menu {
         width: 100%;
     }
 }
@@ -174,6 +181,26 @@ a {
     }
 }
 /*섹션 1-----------------*/
+
+/*섹션 1_1-----------------*/
+.section1_1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.section1_1Title {
+    font-weight: 700;
+    font-size: 24px;
+}
+.section1_1Text {
+    font-size: 18px;
+}
+.section1_1TextMain {
+    font-size: 18px;
+    margin-top: 20px;
+}
+/*섹션 1_1-----------------*/
 
 /*섹션 2-----------------*/
 .section2 {
@@ -327,8 +354,8 @@ a {
     flex-direction: column;
 }
 .카카오톡 {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 /*무빙 버튼*/
 
