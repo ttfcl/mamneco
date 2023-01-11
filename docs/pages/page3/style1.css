@@ -18,8 +18,9 @@ a {
 .top_nav {
     width: 142px;
     height: 126px;
-    background-image: url(../../image/logo.png);
+    background-image: url(../../image/logo2.png);
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 20px auto;
 }
 .navbar-toggler {

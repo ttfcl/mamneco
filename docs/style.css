@@ -139,6 +139,10 @@ a {
     margin-bottom: 25px;
     color: white;
 }
+.nav-item {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 @media (max-width: 1600px) {
     .section1Title {
         font-size: 48px;
